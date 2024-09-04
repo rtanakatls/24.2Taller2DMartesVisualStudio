@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Taller2DVisualStudioMartesSemana1.TLS;
 
 namespace Taller2DVisualStudioMartesSemana1
 {
@@ -10,7 +11,7 @@ namespace Taller2DVisualStudioMartesSemana1
     {
         static void Main(string[] args)
         {
-            Menu menu = new Menu();
+            TLSMenu menu = new TLSMenu();
             menu.Execute();
         }
     }
